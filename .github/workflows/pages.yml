@@ -46,7 +46,7 @@ jobs:
             exit 1
           fi
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v3.4.1
         with:
           node-version: "16"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
@@ -60,7 +60,7 @@ jobs:
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: nuxt
       - name: Restore cache
-        uses: actions/cache@v3
+        uses: actions/cache@v3.0.6
         with:
           path: |
             dist
