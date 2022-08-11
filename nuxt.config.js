@@ -46,6 +46,5 @@ export default {
 
   vite: {
     build: true
-  }
-
+  },
 }
