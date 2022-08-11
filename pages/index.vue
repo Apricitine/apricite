@@ -1,11 +1,20 @@
 <template>
-  <Tutorial/>
+  <main>
+
+  </main>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script setup lang="ts">
 
-export default Vue.extend({
-  name: 'IndexPage'
-})
 </script>
+
+<style lang="scss">
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: black;
+}
+</style>
