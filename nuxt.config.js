@@ -47,4 +47,6 @@ export default {
   vite: {
     build: true
   },
+
+  target: 'static',
 }
