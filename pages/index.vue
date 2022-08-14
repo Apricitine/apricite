@@ -1,5 +1,8 @@
 <template>
-
+  <div>
+    <!-- hi -->
+    yo
+  </div>
 </template>
 
 <script lang="ts" setup>

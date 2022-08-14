@@ -13,11 +13,5 @@
 </script>
 
 <style lang="scss">
-body {
-  @import "@/assets/sass/base.scss";
-  
-  body {
-    margin: 0;
-  }
-}
+@import "@/assets/sass/base.scss";
 </style>
