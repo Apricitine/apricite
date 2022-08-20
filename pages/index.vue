@@ -1,7 +1,6 @@
 <template>
   <div>
-    <!-- hi -->
-    yo
+    hi
   </div>
 </template>
 
@@ -10,5 +9,7 @@
 </script>
 
 <style lang="scss">
+@import "@/assets/sass/variables.scss";
+@import "@/assets/sass/mixins.scss";
 
 </style>
