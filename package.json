@@ -10,6 +10,7 @@
     "nuxt": "3.0.0-rc.8"
   },
   "dependencies": {
+    "firebase": "^9.9.3",
     "nuxi": "^3.0.0-rc.8",
     "sass": "^1.54.5"
   }
