@@ -24,6 +24,6 @@
 section.top-nav-container {
   height: 10vh;
 }
-section.sidebar-container {
-}
+
+section.sidebar-container {}
 </style>
