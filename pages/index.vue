@@ -55,12 +55,17 @@
 </template>
 
 <script lang="ts" setup>
+import * as THREE from 'three';
 
+const threeScene = new THREE.Scene();
+const threeCamera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.01, 10);
+threeCamera.position.z = 1;
+
+const threeGeometry = new THREE.BoxGeometry(0.2);
 </script>
 
 <style lang="scss">
 @import "@/assets/sass/base.scss";
 @import "@/assets/sass/mixins.scss";
 @import "@/assets/sass/variables.scss";
-
 </style>
