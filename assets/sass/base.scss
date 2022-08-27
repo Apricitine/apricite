@@ -1,7 +1,28 @@
+@import "@/assets/sass/mixins.scss";
+@import "@/assets/sass/variables.scss";
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
 body {
   margin: 0 !important;
+}
+
+::-webkit-scrollbar {
+  width: $scrollbar-width;
+}
+
+::-webkit-scrollbar-track {
+  background: $accent-dark1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $scrollbar-accent;
+  border-radius: 12px;
+  width: $scrollbar-width - 0.5vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

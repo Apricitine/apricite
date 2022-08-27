@@ -8,10 +8,14 @@
 </script>
 
 <style lang="scss">
+@import "@/assets/sass/base.scss";
+@import "@/assets/sass/mixins.scss";
+@import "@/assets/sass/variables.scss";
+
 nav.top-navbar {
   height: 10%;
-  background: black;
-  position: fixed; 
+  background: $accent-dark1;
+  position: fixed;
   width: 100%;
 }
 </style>

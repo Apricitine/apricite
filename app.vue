@@ -21,9 +21,16 @@
 </script>
 
 <style lang="scss">
+@import "@/assets/sass/base.scss";
+@import "@/assets/sass/mixins.scss";
+@import "@/assets/sass/variables.scss";
+
 section.top-nav-container {
   height: 10vh;
 }
 
-section.sidebar-container {}
+main.content {
+  margin-left: $sidebar-width + 0.75vw;
+  margin-top: 1vh;
+}
 </style>
