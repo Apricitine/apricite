@@ -6,5 +6,14 @@ export default defineNuxtConfig({
     '@/assets/sass/base.scss',
     '@/assets/sass/mixins.scss',
     '@/assets/sass/variables.scss'
+  ],
+  googleFonts: {
+    families: {
+      'Nunito': true
+    },
+    preconnect: true
+  },
+  modules: [
+    '@nuxtjs/google-fonts'
   ]
 })
