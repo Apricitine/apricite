@@ -15,8 +15,10 @@
 
 
 aside.sidebar {
-  background: linear-gradient(red, green);
+  background: $accent-dark1;
+  box-shadow: 1px 0px 10px $accent-dark1;
   width: $sidebar-width;
+  min-width: $gui-min;
   height: 100%;
   position: fixed;
 }

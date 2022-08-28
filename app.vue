@@ -27,10 +27,10 @@
 
 section.top-nav-container {
   height: 10vh;
+  min-height: 60px;
 }
 
 main.content {
-  margin-left: $sidebar-width + 0.75vw;
-  margin-top: 1vh;
+  height: 100%;
 }
 </style>

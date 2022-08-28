@@ -1,6 +1,16 @@
-$sidebar-width: 10vw;
+$sidebar-width: 6vw;
+$gui-min: 60px;
 
-$scrollbar-width: 1vw;
-$scrollbar-accent: hsl(221, 64%, 13%);
+$scrollbar-width: 1.5vw;
+$scrollbar-accent-to: hsl(127, 69%, 31%);
+$scrollbar-accent-fro: hsl(221, 62%, 39%);
+$scrollbar-accent: linear-gradient($scrollbar-accent-to, $scrollbar-accent-fro);
+$scrollbar-accent-hover: linear-gradient(
+  lighten($scrollbar-accent-to, 5), 
+  lighten($scrollbar-accent-fro, 5)
+);
 
-$accent-dark1: hsl(0, 0%, 0%);
+$accent-dark1: hsl(0, 0%, 9%);
+$accent-dark2: hsl(0, 0%, 24%);
+
+$text-color1: hsl(0, 0%, 92%);

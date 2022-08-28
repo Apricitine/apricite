@@ -1,6 +1,8 @@
 @import "@/assets/sass/mixins.scss";
 @import "@/assets/sass/variables.scss";
 
+$scrollbar-min-width: $gui-min - 42px;
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -10,6 +12,7 @@ body {
 }
 
 ::-webkit-scrollbar {
+  min-width: $scrollbar-min-width;
   width: $scrollbar-width;
 }
 
@@ -20,9 +23,13 @@ body {
 ::-webkit-scrollbar-thumb {
   background: $scrollbar-accent;
   border-radius: 12px;
-  width: $scrollbar-width - 0.5vw;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  transition: background 1s;
+  background-clip: content-box;
+  border: ($scrollbar-width - calc($scrollbar-width * 0.75)) solid transparent;
+  
+  &:hover {
+    background: $scrollbar-accent-hover;
+    background-clip: content-box;
+    border: ($scrollbar-width - calc($scrollbar-width * 0.7625)) solid transparent;
+  }
 }
