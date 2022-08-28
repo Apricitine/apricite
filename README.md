@@ -1,42 +1,26 @@
-# Nuxt 3 Minimal Starter
+# The new Apricitine Homepage: Built with Nuxt3!
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+This is my third remake of my homepage (the first two were unfinished). This time, though, I have an even bigger tech stack, which makes me feel like a **real** developer and definitely won't introduce more bugs into my code that I won't be able to fix.
+# Stack
+- Nuxt.js (v3) 
+- SCSS
+- Typescript
+- Three.js
+- Vue.js (v3)
+- Firebase Hosting
+- Firebase Cloud Functions
+- Firebase Realtime Database
+# Usage
+In case for some reason you want to run this site in a dev environment, I've provided instructions on installation. Remember, this is just a pathway for my Firebase deployment CI, so some stuff might break.
+ 
+First, clone the repo onto your local system:
 ```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
+gh repo clone Apricitine/apricite.git
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
+Then run the setup script in the root directory:
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
+bash setup.sh
 ```
+This will install the correct dependencies and run the dev server. 
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+> \* **Note that this only works with npm as the package manager. If npm isn't installed, the script will throw an error and you'll need to do all the config manually.** 
