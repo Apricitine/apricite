@@ -15,5 +15,6 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/google-fonts'
-  ]
+  ],
+  autoImports: {}
 })

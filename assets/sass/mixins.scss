@@ -1,4 +1,4 @@
-@mixin page-base($bg-color: $accent-dark2) {
+@mixin page-base($bg-color: $accent-dark3) {
   div.container {
     background: $bg-color;
     margin-left: max($sidebar-width, $gui-min);
@@ -8,4 +8,12 @@
       padding: 2vw;
     }
   }
+}
+
+@keyframes widen-sidebar {
+  0% {}
+  25% {}
+  50% {}
+  75% {}
+  100% {}
 }

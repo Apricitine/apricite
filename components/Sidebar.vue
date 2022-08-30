@@ -1,5 +1,5 @@
 <template>
-  <aside class="sidebar">
+  <aside class="sidebar active">
 
   </aside>
 </template>
@@ -21,5 +21,7 @@ aside.sidebar {
   min-width: $gui-min;
   height: 100%;
   position: fixed;
+  border-top: 0.75pt solid $accent-dark3;
+  transition: width 1s;
 }
 </style>

@@ -17,7 +17,10 @@
 </template>
 
 <script lang="ts" setup>
+import * as vuex from 'vuex';
+import * as THREE from 'three';
 
+let store = vuex.createStore({});
 </script>
 
 <style lang="scss">
@@ -28,6 +31,11 @@
 section.top-nav-container {
   height: 10vh;
   min-height: 60px;
+  z-index: 0;
+}
+
+section.sidebar-container {
+  z-index: 1;
 }
 
 main.content {
