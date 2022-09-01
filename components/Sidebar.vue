@@ -22,6 +22,6 @@ aside.sidebar {
   height: 100%;
   position: fixed;
   border-top: 0.75pt solid $accent-dark3;
-  transition: width 1s;
+  transition: width 0.5s;
 }
 </style>

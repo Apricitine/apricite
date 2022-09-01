@@ -5,7 +5,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "nuxi-build": "nuxi build"
+    "deploy": "NITRO_PRESET=firebase npm run build firebase deploy"
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.0.0-0",
@@ -14,8 +14,10 @@
   },
   "dependencies": {
     "firebase": "^9.9.3",
-    "nuxi": "^3.0.0-rc.8",
+    "firebase-admin": "^11.0.1",
+    "firebase-functions": "^3.23.0",
     "sass": "^1.54.5",
+    "sass-loader": "^13.0.2",
     "three": "^0.143.0",
     "vuex": "^4.0.2"
   }

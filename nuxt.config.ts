@@ -16,5 +16,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/google-fonts'
   ],
-  autoImports: {}
+  head: {
+    title: 'Aprictine'
+  }
 })

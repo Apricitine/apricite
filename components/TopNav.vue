@@ -1,6 +1,6 @@
 <template>
   <nav class="top-navbar">
-    gf
+    <input type="text" name="search-bar" id="search-bar" placeholder="Search this site">
   </nav>
 </template>
 
@@ -19,5 +19,12 @@ nav.top-navbar {
   position: fixed;
   width: 100%;
   box-shadow: 0px 1px 10px $accent-dark1;
+  display: grid;
+  place-items: center;
+
+  input#search-bar {
+    width: 20%;
+    height: 40%;
+  }
 }
 </style>

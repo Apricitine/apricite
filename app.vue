@@ -41,4 +41,5 @@ section.sidebar-container {
 main.content {
   height: 100%;
 }
+
 </style>
