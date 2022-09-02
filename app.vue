@@ -17,10 +17,9 @@
 </template>
 
 <script lang="ts" setup>
-import * as vuex from 'vuex';
-import * as THREE from 'three';
+import { useGlobalStore } from '@/store/main'
 
-let store = vuex.createStore({});
+let localStore = useGlobalStore()
 </script>
 
 <style lang="scss">
@@ -41,5 +40,4 @@ section.sidebar-container {
 main.content {
   height: 100%;
 }
-
 </style>

@@ -14,7 +14,8 @@ export default defineNuxtConfig({
     preconnect: true
   },
   modules: [
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@pinia/nuxt'
   ],
   head: {
     title: 'Aprictine'
