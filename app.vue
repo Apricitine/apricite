@@ -17,9 +17,6 @@
 </template>
 
 <script lang="ts" setup>
-import { useGlobalStore } from '@/store/main'
-
-let localStore = useGlobalStore()
 </script>
 
 <style lang="scss">

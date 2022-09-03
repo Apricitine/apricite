@@ -5,7 +5,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "deploy": "NITRO_PRESET=firebase npm run build && firebase deploy",
+    "deploy": "bash deploy.sh",
     "test": "vitest"
   },
   "devDependencies": {
