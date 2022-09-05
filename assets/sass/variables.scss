@@ -12,7 +12,9 @@ $scrollbar-accent-hover: linear-gradient(
 );
 
 $accent-dark1: hsl(0, 0%, 9%);
-$accent-dark2: hsl(0, 0%, 7%);
-$accent-dark3: hsl(0, 0%, 24%);
+$accent-dark2: hsl(240, 5%, 8%);
+$accent-dark3: hsl(0, 0%, 5%); 
+$accent-dark4: hsl(226, 25%, 10%); 
 
+$gradient-accent: $scrollbar-accent;
 $text-color1: hsl(0, 0%, 92%);

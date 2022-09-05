@@ -1,11 +1,15 @@
 <template>
   <nav class="top-navbar">
-    <input type="text" name="search-bar" id="search-bar" placeholder="Search this site">
+    <input
+      type="text"
+      name="search-bar"
+      id="search-bar"
+      placeholder="Search this site"
+    />
   </nav>
 </template>
 
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <style lang="scss">
 @import "@/assets/sass/base.scss";
@@ -20,11 +24,11 @@ nav.top-navbar {
   width: 100%;
   box-shadow: 0px 1px 10px $accent-dark1;
   display: grid;
-  place-items: center;
+  align-items: center;
+}
 
-  input#search-bar {
-    width: 20%;
-    height: 40%;
-  }
+input#search-bar {
+  width: 20%;
+  height: 40%;
 }
 </style>

@@ -9,15 +9,12 @@
       </section>
     </div>
     <main class="content">
-      <NuxtPage>
-
-      </NuxtPage>
+      <NuxtPage> </NuxtPage>
     </main>
   </div>
 </template>
 
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <style lang="scss">
 @import "@/assets/sass/base.scss";
