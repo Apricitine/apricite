@@ -12,10 +12,30 @@
   position: relative;
 }
 
+@mixin intro-move {
+  @keyframes intro-move {
+    0% {
+      top: 10%
+    }
+
+    25% {}
+
+    50% {}
+
+    75% {}
+
+    100% {}
+  }
+}
+
 @keyframes widen-sidebar {
   0% {}
+
   25% {}
+
   50% {}
+
   75% {}
+
   100% {}
 }

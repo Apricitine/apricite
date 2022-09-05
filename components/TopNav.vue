@@ -1,11 +1,5 @@
 <template>
   <nav class="top-navbar">
-    <input
-      type="text"
-      name="search-bar"
-      id="search-bar"
-      placeholder="Search this site"
-    />
   </nav>
 </template>
 
@@ -27,9 +21,4 @@ nav.top-navbar {
   align-items: center;
 }
 
-input#search-bar {
-  width: 20%;
-  height: 40%;
-  float: left;
-}
 </style>
