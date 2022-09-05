@@ -6,6 +6,12 @@
   }
 }
 
+@mixin index-section($bg-color) {
+  background: $bg-color;
+  padding: 2%;
+  position: relative;
+}
+
 @keyframes widen-sidebar {
   0% {}
   25% {}

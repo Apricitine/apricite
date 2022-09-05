@@ -16,7 +16,7 @@ aside.sidebar {
   min-width: $gui-min;
   height: 100%;
   position: fixed;
-  border-top: 0.75pt solid $accent-dark3;
+  border-top: 0.75pt solid $accent-dark2;
   transition: width 0.5s;
 }
 </style>

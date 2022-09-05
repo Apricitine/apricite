@@ -1,23 +1,21 @@
-import { defineNuxtConfig } from 'nuxt'
+import { defineNuxtConfig } from "nuxt";
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  css: [
-    '@/assets/sass/base.scss',
-    '@/assets/sass/mixins.scss',
-    '@/assets/sass/variables.scss'
-  ],
   googleFonts: {
     families: {
-      'Nunito': true
+      Nunito: true,
     },
-    preconnect: true
+    preconnect: true,
   },
-  modules: [
-    '@nuxtjs/google-fonts',
-    '@pinia/nuxt'
-  ],
+  modules: ["@nuxtjs/google-fonts"],
   head: {
-    title: 'Aprictine'
-  }
-})
+    link: [
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href: "~/public/images/cas-devs.png",
+      },
+    ],
+  },
+});

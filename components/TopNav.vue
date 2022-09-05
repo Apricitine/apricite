@@ -30,5 +30,6 @@ nav.top-navbar {
 input#search-bar {
   width: 20%;
   height: 40%;
+  float: left;
 }
 </style>

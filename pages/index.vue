@@ -5,95 +5,55 @@
         Welcome to
         <span class="glowy"> Aprictine </span>
       </h1>
-      <p class="quick-about">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio eum vitae
-        non corrupti voluptatibus officia, explicabo ipsa aut, dignissimos
-        consequatur impedit distinctio dicta repellendus, molestiae ea error. Ut
-        explicabo suscipit corrupti at, quas sunt assumenda minima error itaque
-        ducimus quasi eum totam expedita omnis impedit? Consectetur harum
-        aliquam sint non culpa aperiam esse officia voluptate enim fuga, ratione
-        quos voluptates eius minus sed perspiciatis cupiditate laborum tempora,
-        neque earum? Facilis, aliquid! Culpa perferendis incidunt in eligendi?
-        Sunt, autem eius, labore earum quod, veniam ratione libero omnis modi
-        porro ipsa quibusdam provident magni? Sapiente dolor molestiae natus
-        enim labore deserunt fuga mollitia, obcaecati excepturi tempore
-        distinctio ipsa quas iusto culpa porro quasi aspernatur dicta voluptate,
-        sint voluptatum eligendi beatae consequatur iure. Tenetur facilis dicta
-        sunt, sed ullam eaque expedita quaerat libero vel dolores quibusdam
-        accusantium. Quisquam atque maxime possimus laborum necessitatibus quos
-        adipisci maiores magni laboriosam accusamus blanditiis tempore odit
-        assumenda similique eum rem deleniti itaque est quibusdam qui, vel dicta
-        ex? Debitis distinctio ut labore commodi voluptate vitae voluptas iusto,
-        repellendus facere atque impedit tempora mollitia explicabo cupiditate
-        eos inventore consectetur, similique ex placeat expedita veniam. Totam
-        dolorem deleniti repellendus doloribus praesentium nemo, animi molestiae
-        molestias ut error maiores laudantium odio quaerat doloremque deserunt
-        sapiente cum! Inventore illum reprehenderit cum possimus repellat
-        dolorum iste odio iusto velit, dolorem placeat, numquam ratione. Dolore
-        nemo consequuntur architecto laudantium voluptatem fugit fugiat adipisci
-        ullam quae cumque rem necessitatibus eius, iure dicta id ratione earum
-        reprehenderit numquam aperiam assumenda odio maiores libero ex sint.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur maxime
-        vel incidunt quaerat veniam totam vitae ullam dolore iusto expedita! Quo
-        perspiciatis eum asperiores quis iusto culpa quae fuga unde eligendi
-        pariatur obcaecati facere, itaque eos eaque distinctio, explicabo
-        dignissimos quia! Porro atque, architecto assumenda sapiente eaque,
-        soluta ratione iste ducimus totam molestias error inventore sit dolorem,
-        aliquid repudiandae! Magnam tempore debitis velit veniam similique fuga
-        voluptate blanditiis iure, ratione, officia aut delectus! Corporis
-        nostrum commodi, mollitia libero voluptatem atque animi minima omnis
-        illum doloribus eum officiis est quo non, quod perspiciatis provident
-        numquam esse nobis saepe sunt. Minus atque hic, ipsum nihil ullam alias
-        saepe similique ut et cum natus, rerum in expedita accusamus neque,
-        deleniti libero aperiam. Reiciendis dolores hic aut ullam, reprehenderit
-        debitis recusandae doloremque illum quo magnam ex repellendus dolore
-        molestias magni, unde perspiciatis dolor nostrum? Corporis, accusantium?
-        Voluptates inventore pariatur modi, aspernatur quae est labore,
-        laudantium ipsa laboriosam eligendi repellendus nulla rem nemo magni
-        iste. Accusantium, amet laborum. Ipsam recusandae quo, dignissimos autem
-        totam consequatur! Atque similique aperiam, amet exercitationem
-        repudiandae officia id sunt. Nulla, nobis magnam? Neque cum sint nulla
-        velit, accusantium officiis aperiam tempore accusamus veniam illum
-        similique earum officia recusandae, esse, corporis laborum eligendi
-        incidunt et. Expedita non at laudantium itaque fuga aliquam assumenda
-        cum architecto. Aperiam quibusdam eos blanditiis expedita ex ea
-        veritatis fugit ab fuga ipsa, nostrum vero neque sed cum magnam
-        possimus. Modi expedita assumenda minima recusandae velit explicabo
-        voluptate. Nemo fuga sit, eum veritatis voluptate provident qui beatae
-        quia odio fugiat quidem quaerat quos cum adipisci perspiciatis omnis
-        blanditiis vero nostrum accusantium explicabo porro nisi esse iste
-        libero. Praesentium voluptate minus possimus, eligendi corporis, aliquam
-        cumque ratione at, temporibus tempora saepe officia! Laboriosam,
-        molestiae. Placeat eveniet quis quos officia minus, tempore saepe
-        reprehenderit tempora voluptas aspernatur nulla facilis dicta iste
-        tenetur ullam aliquam a excepturi est voluptate unde repudiandae
-        similique non? Delectus asperiores maiores eveniet eum vero magni
-        consectetur et nam maxime non itaque consequatur vitae nostrum quidem
-        veniam sapiente quae illum totam dolore iure, officiis est incidunt
-        voluptatibus pariatur! Harum rem quia magni aut eum nemo quam doloribus
-        in aliquam, a aspernatur recusandae voluptatum sint minus cumque ullam
-        facilis ipsum, doloremque eaque, ad natus quibusdam culpa maiores
-        incidunt! Aliquid amet dolorem illum sequi dignissimos laboriosam, fuga
-        sunt, blanditiis cumque voluptatum autem est qui doloribus maxime
-        voluptate dolor distinctio tempora cum, numquam alias consequatur. Atque
-        repellendus consequuntur earum doloribus ducimus. Laudantium consectetur
-        cumque provident numquam aut alias reiciendis tempora minus distinctio a
-        incidunt molestiae quod magni quae, dignissimos ipsum quisquam at ab
-        magnam. Totam, expedita et amet minus sint dolorem. Temporibus minus
-        iure delectus. Placeat at error deserunt magni, sint ea quae voluptatem
-        delectus iusto perferendis qui est a provident vitae aspernatur, sequi
-        dolores omnis facilis nostrum, perspiciatis rem. Repellat quidem
-        distinctio tempora magni inventore, ipsum consequuntur natus possimus
-        eius aspernatur dolore aliquid nisi sed nobis voluptatem. Quasi, iste
-        reiciendis quod sequi voluptates numquam ipsam maxime maiores architecto
-        doloribus sint quo tenetur unde. Perferendis cum fugiat sequi eius.
-      </p>
+      <section class="quick-about">
+        <p>
+          Hey there! My name's Apricitine and I'm a self-taught
+          web-developer/programmer. I love building websites, art, writing, and
+          photography. Email me with questions!
+        </p>
+      </section>
+      <section class="more-about">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem atque
+          quod eius, soluta tenetur illo doloribus harum, itaque nesciunt hic,
+          quidem animi quae excepturi? Hic voluptates doloremque ea repudiandae
+          quaerat!
+        </p>
+        <div class="custom-shape-divider-top-1662409434">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+              opacity=".25"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+              opacity=".5"
+              class="shape-fill"
+            ></path>
+            <path
+              d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </section>
     </main>
+    <footer>fjkf</footer>
   </div>
 </template>
 
 <script lang="ts" setup>
 // import * as THREE from "three";
+
+useHead({
+  title: "Home",
+});
 
 // const threeScene = new THREE.Scene();
 // const threeCamera = new THREE.PerspectiveCamera(
@@ -141,18 +101,41 @@ h1.page-intro {
   letter-spacing: 0.075em;
   transition: all 1s;
   user-select: none;
+  margin-top: 8%;
+  margin-bottom: 8%;
 
   span.glowy {
     color: hsl(110, 60%, 60%);
     text-shadow: 0 0 15px hsl(110, 60%, 60%);
   }
-
-  
 }
 
-p.quick-about {
-  background: $accent-dark4;
-  padding: 2%;
-  box-shadow: 0 -1px 10px $accent-dark4
+section.quick-about {
+  @include index-section($accent-dark4);
+  box-shadow: 0 -1px 10px $accent-dark4;
+}
+
+section.more-about {
+  @include index-section($accent-color1);
+
+  .clear-wave-top {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+
+  .clear-wave-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 72px;
+  }
+
+  .clear-wave-top .shape-fill {
+    fill: #131620;
+  }
 }
 </style>

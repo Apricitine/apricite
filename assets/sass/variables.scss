@@ -11,10 +11,11 @@ $scrollbar-accent-hover: linear-gradient(
   lighten($scrollbar-accent-fro, 5)
 );
 
-$accent-dark1: hsl(0, 0%, 9%);
-$accent-dark2: hsl(240, 5%, 8%);
-$accent-dark3: hsl(0, 0%, 5%); 
-$accent-dark4: hsl(226, 25%, 10%); 
+$accent-dark1: hsl(0, 0%, 17%);
+$accent-dark2: hsl(0, 0%, 15%);
+$accent-dark3: hsl(240, 3%, 7%); 
+$accent-dark4: hsl(226, 25%, 10%);
+$accent-color1: hsl(172, 49%, 26%);
 
-$gradient-accent: $scrollbar-accent;
 $text-color1: hsl(0, 0%, 92%);
+$accent-green1: hsl(113, 51%, 62%);
