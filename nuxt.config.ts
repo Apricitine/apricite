@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Nunito: true,
+      Prompt: true
     },
     preconnect: true,
   },
@@ -14,7 +15,7 @@ export default defineNuxtConfig({
       {
         rel: "icon",
         type: "image/x-icon",
-        href: "~/public/images/cas-devs.png",
+        href: "@/static/favicon.ico",
       },
     ],
   },

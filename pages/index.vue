@@ -3,7 +3,7 @@
     <main>
       <h1 class="page-intro">
         Welcome to
-        <span class="glowy"> Aprictine </span>
+        <span class="glowy"> Apricitine </span>
       </h1>
       <section class="quick-about">
         <p>
