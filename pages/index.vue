@@ -9,15 +9,12 @@
         <p>
           Hey there! My name's Apricitine and I'm a self-taught
           web-developer/programmer. I love building websites, art, writing, and
-          photography. Email me with questions!
+          photography. Email me.
         </p>
       </section>
       <section class="more-about">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem atque
-          quod eius, soluta tenetur illo doloribus harum, itaque nesciunt hic,
-          quidem animi quae excepturi? Hic voluptates doloremque ea repudiandae
-          quaerat!
+          
         </p>
         <div class="clear-wave-top">
           <svg
