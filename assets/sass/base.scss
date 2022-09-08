@@ -8,10 +8,13 @@ $scrollbar-min-width: $gui-min - 42px;
 *::after {
   box-sizing: border-box;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 ::selection {
   background-color: $accent-green1;
+  color: $accent-dark2;
+  font-weight: bold;
 }
 
 body {

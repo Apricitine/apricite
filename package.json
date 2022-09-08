@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.0.0-0",
-    "@types/three": "^0.143.1",
+    "@types/p5": "^1.4.2",
     "firebase-admin": "^11.0.1",
     "firebase-functions": "^3.23.0",
     "firebase-functions-test": "^2.3.0",
@@ -18,11 +18,9 @@
     "vitest": "^0.22.1"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.1",
     "firebase": "^9.9.3",
-    "pinia": "^2.0.21",
+    "p5": "^1.4.2",
     "sass": "^1.54.5",
-    "sass-loader": "^13.0.2",
-    "three": "^0.143.0"
+    "sass-loader": "^13.0.2"
   }
 }

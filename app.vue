@@ -9,14 +9,14 @@
       </section>
     </div>
     <main class="content">
-      <NuxtPage> </NuxtPage>
+      <NuxtPage></NuxtPage>
     </main>
   </div>
 </template>
 
 <script lang="ts" setup>
 useHead({
-  titleTemplate: (titleChunk) => {
+  titleTemplate: (titleChunk: string) => {
     return titleChunk ? `${titleChunk} | Apricitine` : "Apricitine";
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
@@ -33,7 +33,7 @@ useHead({
 section.top-nav-container {
   height: 10vh;
   min-height: 60px;
-  z-index: 0;
+  z-index: 1;
 }
 
 section.sidebar-container {
@@ -42,5 +42,10 @@ section.sidebar-container {
 
 main.content {
   height: 100%;
+  z-index: 0;
+  
+  NuxtPage {
+    z-index: 0;
+  }
 }
 </style>

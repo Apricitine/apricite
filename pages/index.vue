@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <main>
-      <h1 class="page-intro">
+      <h1 class="page-intro" ref="heading">
         Welcome to
         <span class="glowy"> Apricitine </span>
       </h1>
@@ -14,7 +14,41 @@
       </section>
       <section class="more-about">
         <p>
-          
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+          doloremque. Facere nisi cum enim id consequuntur nam assumenda autem
+          voluptas, sint, maiores recusandae possimus libero provident unde
+          dolore! Repellat quisquam non nesciunt ducimus ea delectus, corporis
+          earum. Officiis explicabo sunt nobis laudantium placeat optio libero
+          voluptas. Reprehenderit quasi dolore temporibus ipsa nulla, molestiae
+          beatae maxime iusto laboriosam dignissimos rerum voluptates ab ex
+          eligendi suscipit error distinctio officia incidunt nemo explicabo
+          sapiente? Quas aliquam quisquam quod temporibus sapiente nam,
+          doloribus fugiat omnis praesentium esse doloremque dolorem eveniet
+          quibusdam nemo architecto alias laborum dignissimos quasi est vero
+          eligendi earum, pariatur iste officia. Neque, ducimus! Sed quisquam
+          qui soluta ipsa reprehenderit consectetur reiciendis nesciunt
+          consequuntur! Laudantium et tempora magnam expedita recusandae
+          voluptas earum velit quidem illum aut consequuntur, quia debitis esse
+          nulla vel quam vitae repudiandae blanditiis hic distinctio. Similique
+          inventore nobis culpa nisi officia impedit voluptatum ratione
+          consequatur, illo, deleniti, non sint excepturi? Perspiciatis
+          dignissimos, facilis voluptas recusandae accusamus quibusdam excepturi
+          voluptates saepe. Officia aliquid minus officiis tempora dolor, soluta
+          qui voluptatibus dolores nam minima deserunt asperiores accusamus quis
+          aliquam accusantium repellat repellendus placeat ducimus commodi quia!
+          Velit ad laboriosam facilis enim aperiam totam obcaecati tenetur.
+          Repellendus cupiditate cumque voluptates ea velit suscipit veniam
+          quam, dolor eligendi esse nostrum, ducimus ex nemo saepe maxime
+          ratione molestiae delectus! Obcaecati, iure veritatis vitae ea saepe
+          doloribus natus atque totam modi? Suscipit aspernatur iste aliquid
+          nobis consectetur praesentium quas, qui inventore ratione fugit
+          aliquam nesciunt corrupti repudiandae provident amet voluptatum quod
+          accusamus quis voluptate, quam veritatis saepe veniam porro! Sint
+          similique numquam vitae nemo dolore repudiandae magni, ullam aut,
+          ipsum rerum repellat dignissimos tempore distinctio nesciunt esse quis
+          illum nostrum neque quos hic dolores deleniti odio. Neque, doloremque
+          nam est aliquid autem molestias incidunt reprehenderit mollitia in,
+          asperiores inventore praesentium modi laudantium, deleniti at? Ullam!
         </p>
         <div class="clear-wave-top">
           <svg
@@ -77,34 +111,9 @@
 </template>
 
 <script lang="ts" setup>
-// import * as THREE from "three";
-
 useHead({
   title: "Home",
 });
-
-// const threeScene = new THREE.Scene();
-// const threeCamera = new THREE.PerspectiveCamera(
-//   70,
-//   checkBrowser(process.client).width ??
-//     1080 / checkBrowser(process.client).height ??
-//     720,
-//   0.01,
-//   10
-// );
-// threeCamera.position.z = 1;
-
-// const threeGeometry = new THREE.BoxGeometry(0.2);
-
-// function checkBrowser(arg) {
-//   if (!arg) return;
-//   if (arg) {
-//     return {
-//       width: window.innerWidth,
-//       height: window.innerHeight,
-//     };
-//   }
-// }
 </script>
 
 <style lang="scss">
