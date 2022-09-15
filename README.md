@@ -14,11 +14,11 @@ This is my third remake of my homepage (the first two were unfinished). This tim
 In case for some reason you want to run this site in a dev environment, I've provided instructions on installation. Remember, this is just a pathway for my Firebase deployment CI, so some stuff might break.
  
 First, clone the repo onto your local system:
-```
+```sh
 gh repo clone Apricitine/apricite.git
 ```
 Then run the setup script in the root directory:
-```
+```sh
 bash setup.sh
 ```
 This will install the correct dependencies and run the dev server. 
