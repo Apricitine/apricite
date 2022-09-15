@@ -25,30 +25,7 @@
           sapiente? Quas aliquam quisquam quod temporibus sapiente nam,
           doloribus fugiat omnis praesentium esse doloremque dolorem eveniet
           quibusdam nemo architecto alias laborum dignissimos quasi est vero
-          eligendi earum, pariatur iste officia. Neque, ducimus! Sed quisquam
-          qui soluta ipsa reprehenderit consectetur reiciendis nesciunt
-          consequuntur! Laudantium et tempora magnam expedita recusandae
-          voluptas earum velit quidem illum aut consequuntur, quia debitis esse
-          nulla vel quam vitae repudiandae blanditiis hic distinctio. Similique
-          inventore nobis culpa nisi officia impedit voluptatum ratione
-          consequatur, illo, deleniti, non sint excepturi? Perspiciatis
-          dignissimos, facilis voluptas recusandae accusamus quibusdam excepturi
-          voluptates saepe. Officia aliquid minus officiis tempora dolor, soluta
-          qui voluptatibus dolores nam minima deserunt asperiores accusamus quis
-          aliquam accusantium repellat repellendus placeat ducimus commodi quia!
-          Velit ad laboriosam facilis enim aperiam totam obcaecati tenetur.
-          Repellendus cupiditate cumque voluptates ea velit suscipit veniam
-          quam, dolor eligendi esse nostrum, ducimus ex nemo saepe maxime
-          ratione molestiae delectus! Obcaecati, iure veritatis vitae ea saepe
-          doloribus natus atque totam modi? Suscipit aspernatur iste aliquid
-          nobis consectetur praesentium quas, qui inventore ratione fugit
-          aliquam nesciunt corrupti repudiandae provident amet voluptatum quod
-          accusamus quis voluptate, quam veritatis saepe veniam porro! Sint
-          similique numquam vitae nemo dolore repudiandae magni, ullam aut,
-          ipsum rerum repellat dignissimos tempore distinctio nesciunt esse quis
-          illum nostrum neque quos hic dolores deleniti odio. Neque, doloremque
-          nam est aliquid autem molestias incidunt reprehenderit mollitia in,
-          asperiores inventore praesentium modi laudantium, deleniti at? Ullam!
+          eligendi earum, pariatur iste officia. 
         </p>
         <div class="clear-wave-top">
           <svg
@@ -133,6 +110,7 @@ main {
 }
 
 h1.page-intro {
+  font-family: 'Courier New', Courier, monospace;
   margin-left: 5%;
   font-size: 8rem;
   line-height: 1.5em;
@@ -160,12 +138,13 @@ h1.page-intro {
 }
 
 section.quick-about {
-  @include index-section($accent-dark4);
-  box-shadow: 0 -1px 10px $accent-dark4;
+  @include index-section($accent-dark4, $accent-dark4);
+  z-index: 5;
 }
 
 section.more-about {
-  @include index-section($accent-color1);
+  @include index-section($accent-color1, $accent-color1);
+  z-index: 4;
 
   p {
     padding-top: 4%;
@@ -193,7 +172,7 @@ section.more-about {
 }
 
 section.experience {
-  @include index-section($accent-color2);
+  @include index-section($accent-color2, $accent-color2);
 
   p {
     padding-top: 8%;

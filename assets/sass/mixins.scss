@@ -6,10 +6,11 @@
   }
 }
 
-@mixin index-section($bg-color) {
+@mixin index-section($bg-color, $shadow-color) {
   background: $bg-color;
   padding: 2%;
   position: relative;
+  box-shadow: 0 0 5px $shadow-color;
 }
 
 @mixin intro-move {

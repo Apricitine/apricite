@@ -1,8 +1,15 @@
 <template>
-  <div></div>
+  <div>
+    <slot></slot>
+    <h1>{{ itemName }}</h1>
+  </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+defineProps({
+  itemName: { default: "No Name", required: true },
+});
+</script>
 
 <style lang="scss">
 @import "@/assets/sass/base.scss";

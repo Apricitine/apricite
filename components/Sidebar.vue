@@ -1,5 +1,9 @@
 <template>
-  <aside class="sidebar active"></aside>
+  <aside class="sidebar active">
+    <group>
+      <SidebarItem></SidebarItem>
+    </group>
+  </aside>
 </template>
 
 <script lang="ts" setup></script>
@@ -18,5 +22,6 @@ aside.sidebar {
   position: fixed;
   border-top: 0.75pt solid $accent-dark2;
   transition: width 0.5s;
+  display: grid;
 }
 </style>
