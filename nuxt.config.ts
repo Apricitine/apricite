@@ -5,11 +5,11 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Nunito: true,
-      Prompt: true
+      Prompt: true,
     },
     preconnect: true,
   },
-  modules: ["@nuxtjs/google-fonts"],
+  modules: ["@nuxtjs/google-fonts", "@vueuse/nuxt"],
   head: {
     link: [
       {

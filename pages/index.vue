@@ -236,8 +236,6 @@ section {
     p {
       padding-top: 4%;
     }
-
-    7
   }
 }
 </style>

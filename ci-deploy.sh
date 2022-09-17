@@ -1,8 +1,8 @@
-NITRO_PRESET=firebase npm run build && {
+NITRO_PRESET=firebase yarn build && {
   cd .output/server
-  npm i
-  npm ci && {
-    npx firebase deploy
+  yarn install
+  yarn ci && {
+    npx firebase deploy --yarn
     cd ~/Programming/apricite
   }
 }
