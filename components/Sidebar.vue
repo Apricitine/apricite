@@ -1,12 +1,27 @@
 <template>
   <aside class="sidebar active">
     <group>
-      <SidebarItem></SidebarItem>
+      <SidebarItem
+        :itemName="sidebarItemInfo.sidebarItemNames[0]"
+        :itemLink="sidebarItemInfo.sidebarItemLinks[0]"
+      ></SidebarItem>
+      <SidebarItem
+        :itemName="sidebarItemInfo.sidebarItemNames[1]"
+        :itemLink="sidebarItemInfo.sidebarItemLinks[1]"
+      ></SidebarItem>
     </group>
   </aside>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+let sidebarItemInfo: {
+  sidebarItemNames: Array<string>;
+  sidebarItemLinks: Array<string>;
+} = {
+  sidebarItemNames: ["Home", "About"],
+  sidebarItemLinks: ["/", "about"],
+};
+</script>
 
 <style lang="scss">
 @import "@/assets/sass/base.scss";

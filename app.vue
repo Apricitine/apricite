@@ -15,6 +15,15 @@
 </template>
 
 <script lang="ts" setup>
+import { onKeyStroke } from "@vueuse/core";
+
+const secritTyper: Array<string> = "Apricitine".split("");
+
+for (let typedLetter in secritTyper) {
+  onKeyStroke(secritTyper, e => e.preventDefault());
+
+}
+
 useHead({
   titleTemplate: (titleChunk: string) => {
     return titleChunk ? `${titleChunk} | Apricitine` : "Apricitine";
@@ -23,8 +32,8 @@ useHead({
   charset: "utf-8",
   meta: [{ name: "description", content: "The Apricitine Homepage." }],
   htmlAttrs: {
-    lang: 'en'
-  }
+    lang: "en",
+  },
 });
 </script>
 
@@ -46,7 +55,7 @@ section.sidebar-container {
 main.content {
   height: 100%;
   z-index: 0;
-  
+
   NuxtPage {
     z-index: 0;
   }

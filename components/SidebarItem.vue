@@ -1,13 +1,16 @@
 <template>
   <div>
     <slot></slot>
-    <h1>{{ itemName }}</h1>
+    <NuxtLink :to="itemLink">
+      <h1>{{ itemName }}</h1>
+    </NuxtLink>
   </div>
 </template>
 
 <script lang="ts" setup>
 defineProps({
   itemName: { default: "No Name", required: true },
+  itemLink: { default: "/", required: true}
 });
 </script>
 
