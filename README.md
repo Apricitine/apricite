@@ -5,22 +5,21 @@ This is my third remake of my homepage (the first two were unfinished). This tim
 - Nuxt.js (v3) 
 - SCSS
 - Typescript
-- Three.js
 - Vue.js (v3)
 - Firebase Hosting
 - Firebase Cloud Functions
 - Firebase Realtime Database
+- (More stuff will probably get added on)
 # Usage
-In case for some reason you want to run this site in a dev environment, I've provided instructions on installation. Remember, this is just a pathway for my Firebase deployment CI, so some stuff might break.
+In case for some reason you want to run this site in a dev environment, I've provided instructions on installation. Remember, this is just a pathway for my CI, so some stuff might break.
  
 First, clone the repo onto your local system:
 ```sh
 gh repo clone Apricitine/apricite.git
 ```
-Then run the setup script in the root directory:
+Then run these commands to start the dev server:
 ```sh
-bash setup.sh
+yarn install
+yarn dev
 ```
-This will install the correct dependencies and run the dev server. 
-
-> \* **Note that this only works with npm as the package manager. If npm isn't installed, the script will throw an error and you'll need to do all the config manually.** 
+`yarn deploy` will run a script I made that manually deploys the hosting and functions to Firebase. Unfortunately, I haven't been able to set up a Github Actions workflow for CI yet because of some weird errors.
