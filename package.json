@@ -1,23 +1,18 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "deploy": "bash deploy.sh",
-    "test": "vitest"
+    "preview": "firebase emulators:start",
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^3.0.0-0",
-    "@types/p5": "^1.4.2",
     "@vueuse/core": "^9.2.0",
     "@vueuse/nuxt": "^9.2.0",
     "firebase-admin": "^11.0.1",
     "firebase-functions": "^3.23.0",
     "firebase-functions-test": "^2.3.0",
-    "nuxt": "3.0.0-rc.8",
-    "vitest": "^0.22.1"
+    "nuxt": "3.0.0-rc.8"
   },
   "dependencies": {
     "firebase": "^9.9.3",

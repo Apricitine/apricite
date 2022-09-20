@@ -9,23 +9,15 @@
         <p>
           Hey there! My name's Apricitine and I'm a self-taught
           web-developer/programmer. I love building websites, art, writing, and
-          photography. Email me.
+          photography. This website is my first major project, so I'd love to
+          recieve feedback of any type :).
         </p>
       </section>
       <section class="more-about" ref="sectionText">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-          doloremque. Facere nisi cum enim id consequuntur nam assumenda autem
-          voluptas, sint, maiores recusandae possimus libero provident unde
-          dolore! Repellat quisquam non nesciunt ducimus ea delectus, corporis
-          earum. Officiis explicabo sunt nobis laudantium placeat optio libero
-          voluptas. Reprehenderit quasi dolore temporibus ipsa nulla, molestiae
-          beatae maxime iusto laboriosam dignissimos rerum voluptates ab ex
-          eligendi suscipit error distinctio officia incidunt nemo explicabo
-          sapiente? Quas aliquam quisquam quod temporibus sapiente nam,
-          doloribus fugiat omnis praesentium esse doloremque dolorem eveniet
-          quibusdam nemo architecto alias laborum dignissimos quasi est vero
-          eligendi earum, pariatur iste officia.
+          I'm not employed currently, I don't plan on being employed. However,
+          I'd love to take on freelancing jobs and stuff like that, so if you're
+          really persistent, feel free to email me.
         </p>
         <div class="clear-wave-top">
           <svg
@@ -53,13 +45,15 @@
       </section>
       <section class="experience" ref="sectionText">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius enim
-          facere fugit, veritatis sunt assumenda rerum sint quibusdam cum, nam
-          voluptates asperiores id. Nam voluptatem repellendus, nostrum possimus
-          ab magnam rem voluptate similique expedita suscipit totam officiis
-          unde omnis sed! Lorem ipsum dolor sit amet consectetur, adipisicing
-          elit. Molestiae impedit reiciendis quod necessitatibus vel quam eos
-          cumque, officiis deleniti iste!
+          I have experience in a number of fields, however I am by no means a
+          master of any and I'm continuing to learn about web development every
+          day. Here are some of my basic levels of experience:
+          <br>
+          <ul>
+            <li v-for="experience in experiences" :key="experience.id">
+              {{ experience.areaOfExpertise }} - {{ experience.levelOfExpertise }}
+            </li>
+          </ul>
         </p>
         <div class="aqua-wave-top">
           <svg
@@ -90,8 +84,11 @@
 </template>
 
 <script lang="ts" setup>
+const experiences = ref([
+  { areaOfExpertise: "Basic Typescript (knowledge of the language itself)", levelOfExpertise: "8/10", id: 0 },
+  { areaOfExpertise: "Basic HTML", levelOfExpertise: "8/10", id: 1 }
+]);
 
-// set local page title
 useHead({ title: "Home" });
 </script>
 
@@ -179,6 +176,11 @@ section {
 
     p {
       padding-top: 8%;
+      font-weight: bold;
+
+      ul {
+        font-weight: normal;
+      }
     }
     .aqua-wave-top {
       position: absolute;

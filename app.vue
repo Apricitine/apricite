@@ -17,6 +17,11 @@
 <script lang="ts" setup>
 import { onKeyStroke } from "@vueuse/core";
 
+/* the secret passphrase is built into the site
+ * it should be an Array generic with a type of string
+ * the result is an array with each index containing letters
+ * that spell out Aprictine
+*/
 const secritTyper: Array<string> = "Apricitine".split("");
 
 for (let typedLetter in secritTyper) {
@@ -54,10 +59,5 @@ section.sidebar-container {
 
 main.content {
   height: 100%;
-  z-index: 0;
-
-  NuxtPage {
-    z-index: 0;
-  }
 }
 </style>
