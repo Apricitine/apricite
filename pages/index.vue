@@ -121,9 +121,15 @@ useHead({ title: "Home" });
 @include page-base();
 
 @keyframes sliding-gradient {
-  0% { background-position: 2% 0%; }
-  50% { background-position: 99% 100%; }
-  100% { background-position: 2% 0%; }
+  0% {
+    background-position: 2% 0%;
+  }
+  50% {
+    background-position: 99% 100%;
+  }
+  100% {
+    background-position: 2% 0%;
+  }
 }
 
 main {
@@ -160,7 +166,7 @@ h1.page-intro {
   span.etc-text {
     letter-spacing: 0.15rem;
     font-size: 3.5em;
-    line-height: 2em;
+    line-height: 3em;
     background-image: linear-gradient(
       135deg,
       rgb(41, 255, 137),
