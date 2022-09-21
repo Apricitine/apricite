@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "build": "nuxt build",
     "dev": "nuxt dev",
     "preview": "firebase emulators:start",
     "deploy": "bash deploy.sh"

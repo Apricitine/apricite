@@ -11,6 +11,25 @@ $scrollbar-min-width: $gui-min - 42px;
   scroll-behavior: smooth;
 }
 
+a {
+  font-family: Prompt;
+  font-weight: bold;
+  color: $link-color;
+
+  &.router {
+    text-decoration: none;
+    text-align: center;
+    color: $router-link-color;
+    transition-property: color;
+    transition-duration: 0.5s;
+
+    &:hover,
+    &.router-link-active {
+      color: darken($router-link-color, 50);
+    }
+  }
+}
+
 ::selection {
   background-color: $accent-green1;
   color: $accent-dark2;

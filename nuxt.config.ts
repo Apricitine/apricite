@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     families: {
       Nunito: true,
       Prompt: true,
+      'Roboto Slab': true
     },
     preconnect: true,
   },
@@ -18,5 +19,5 @@ export default defineNuxtConfig({
         href: "@/public/favicon.ico",
       },
     ],
-  },
+  }
 });

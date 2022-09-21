@@ -12,31 +12,3 @@
   position: relative;
   box-shadow: 0 0 5px $shadow-color;
 }
-
-@mixin intro-move {
-  @keyframes intro-move {
-    0% {
-      top: 10%
-    }
-
-    25% {}
-
-    50% {}
-
-    75% {}
-
-    100% {}
-  }
-}
-
-@keyframes widen-sidebar {
-  0% {}
-
-  25% {}
-
-  50% {}
-
-  75% {}
-
-  100% {}
-}

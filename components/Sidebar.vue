@@ -2,25 +2,29 @@
   <aside class="sidebar active">
     <group>
       <SidebarItem
-        :itemName="sidebarItemInfo.sidebarItemNames[0]"
-        :itemLink="sidebarItemInfo.sidebarItemLinks[0]"
-      ></SidebarItem>
-      <SidebarItem
-        :itemName="sidebarItemInfo.sidebarItemNames[1]"
-        :itemLink="sidebarItemInfo.sidebarItemLinks[1]"
+        v-for="items in sidebarItemInfo"
+        :itemName="items.sidebarItemName"
+        :itemLink="items.sidebarItemLink"
       ></SidebarItem>
     </group>
   </aside>
 </template>
 
 <script lang="ts" setup>
-let sidebarItemInfo: {
-  sidebarItemNames: Array<string>;
-  sidebarItemLinks: Array<string>;
-} = {
-  sidebarItemNames: ["Home", "About"],
-  sidebarItemLinks: ["/", "about"],
-};
+/* type definition */
+interface SidebarItemInfoIndice {
+  sidebarItemName: string;
+  sidebarItemLink: string;
+  
+}
+/* variable declarations */
+let sidebarItemInfo: Array<SidebarItemInfoIndice> = [
+  { sidebarItemName: "Home", sidebarItemLink: "/" },
+  { sidebarItemName: "About", sidebarItemLink: "about" },
+  { sidebarItemName: "Experience", sidebarItemLink: "experience" },
+  { sidebarItemName: "Projects", sidebarItemLink: "projects" },
+  { sidebarItemName: "Contact", sidebarItemLink: "contact" },
+];
 </script>
 
 <style lang="scss">
@@ -36,7 +40,7 @@ aside.sidebar {
   height: 100%;
   position: fixed;
   border-top: 0.75pt solid $accent-dark2;
-  transition: width 0.5s;
   display: grid;
+  padding: 1%;
 }
 </style>

@@ -2,8 +2,8 @@
   <div class="container">
     <main>
       <h1 class="page-intro">
-        Welcome to
-        <span class="glowy"> Apricitine </span>
+        <span class="glowy">Apricitine</span><br />
+        <span class="etc-text">Web dev, code enthusiast, etc.</span>
       </h1>
       <section class="quick-about" ref="sectionText">
         <p>
@@ -17,7 +17,9 @@
         <p>
           I'm not employed currently, I don't plan on being employed. However,
           I'd love to take on freelancing jobs and stuff like that, so if you're
-          really persistent, feel free to email me.
+          really persistent, feel free to email me about internships or stuff
+          like that. If you want more info, be sure to check out the
+          <NuxtLink to="about">about</NuxtLink> page here.
         </p>
         <div class="clear-wave-top">
           <svg
@@ -44,17 +46,17 @@
         </div>
       </section>
       <section class="experience" ref="sectionText">
-        <p>
+        <p class="big-padding">
           I have experience in a number of fields, however I am by no means a
           master of any and I'm continuing to learn about web development every
           day. Here are some of my basic levels of experience:
-          <br>
-          <ul>
-            <li v-for="experience in experiences" :key="experience.id">
-              {{ experience.areaOfExpertise }} - {{ experience.levelOfExpertise }}
-            </li>
-          </ul>
         </p>
+        <br />
+        <li v-for="experience in experiences">
+          {{ experience.areaOfExpertise }} - {{ experience.levelOfExpertise }}
+        </li>
+        <br />
+        <p>Be sure to check out the experience page for more info!</p>
         <div class="aqua-wave-top">
           <svg
             data-name="Layer 1"
@@ -84,11 +86,30 @@
 </template>
 
 <script lang="ts" setup>
-const experiences = ref([
-  { areaOfExpertise: "Basic Typescript (knowledge of the language itself)", levelOfExpertise: "8/10", id: 0 },
-  { areaOfExpertise: "Basic HTML", levelOfExpertise: "8/10", id: 1 }
+import { Ref } from "vue";
+/* type declarations */
+interface ExpertiseElement {
+  areaOfExpertise: string;
+  levelOfExpertise: string;
+}
+
+/* other declarations */
+const experiences: Ref<Array<ExpertiseElement>> = ref([
+  {
+    areaOfExpertise: "Basic Typescript (knowledge of the language itself)",
+    levelOfExpertise: "8/10",
+  },
+  {
+    areaOfExpertise: "Basic HTML (semantics, other very basic stuff, etc.)",
+    levelOfExpertise: "9/10",
+  },
+  {
+    areaOfExpertise: "Basic CSS/SCSS (specificity, queries, etc.)",
+    levelOfExpertise: "7/10",
+  },
 ]);
 
+/* config stuff */
 useHead({ title: "Home" });
 </script>
 
@@ -98,7 +119,12 @@ useHead({ title: "Home" });
 @import "@/assets/sass/variables.scss";
 
 @include page-base();
-@include intro-move();
+
+@keyframes sliding-gradient {
+  0% { background-position: 2% 0%; }
+  50% { background-position: 99% 100%; }
+  100% { background-position: 2% 0%; }
+}
 
 main {
   color: $text-color1;
@@ -109,30 +135,42 @@ main {
 }
 
 h1.page-intro {
-  font-family: "Courier New", Courier, monospace;
-  margin-left: 5%;
-  font-size: 8rem;
-  line-height: 1.5em;
-  letter-spacing: 0.075em;
-  transition: all 1s;
-  user-select: none;
+  font-family: Prompt;
+  margin-left: 8%;
   margin-top: 8%;
   margin-bottom: 8%;
-  animation: intro-move 5s infinite;
-  transition: all 1s;
-
-  &:hover {
-    font-size: 8.5rem;
-  }
+  text-align: left;
+  user-select: none;
 
   span.glowy {
     color: hsl(110, 60%, 60%);
     text-shadow: 0 0 15px hsl(110, 60%, 60%);
     transition: all 1s;
+    font-size: 12em;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+    transition: all 1s;
 
     &:hover {
-      animation: spotlight 1s;
+      text-shadow: 10px 10px 30px hsl(110, 60%, 60%);
+      font-size: 13em;
     }
+  }
+
+  span.etc-text {
+    letter-spacing: 0.15rem;
+    font-size: 3.5em;
+    line-height: 2em;
+    background-image: linear-gradient(
+      135deg,
+      rgb(41, 255, 137),
+      rgb(255, 108, 71)
+    );
+    background-size: 600% 600%;
+    background-clip: text;
+    color: transparent;
+    animation: sliding-gradient 20s ease infinite;
+    text-shadow: hsla(0, 0%, 100%, 0.733) 0 0 100px;
   }
 }
 
@@ -175,13 +213,13 @@ section {
     @include index-section($accent-color2, $accent-color2);
 
     p {
-      padding-top: 8%;
       font-weight: bold;
 
-      ul {
-        font-weight: normal;
+      &.big-padding {
+        padding-top: 8%;
       }
     }
+
     .aqua-wave-top {
       position: absolute;
       top: 0;
